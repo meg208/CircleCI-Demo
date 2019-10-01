@@ -10,7 +10,7 @@ jobs:
           command: . build/install.sh
       - run:
           name: Create Scratch Org
-          command: . build/setup-prod.sh
+          command: . build\create-scratch-org.sh
       - run:
           name: Validate Components & Run Tests
           command: . build/test.sh
