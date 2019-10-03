@@ -20,6 +20,7 @@ hello
     * Make sure you check `Enable OAuth Settings` in the connected app
     * Set the OAuth callback to `http://localhost:1717/OauthRedirect`
     * Check `Use Digital Signatures` and add your certificate file (`server.crt`), this will be in the `build/` folder. Once you have done this delete this file
+    kjh
     * Select the required OAuth scopes
     * Make sure that `refresh` is enabled - otherwise you'll get this error: `user hasn't approved this consumer`
     * Ensure that `Admin approved users are pre-authorized` under `Permitted Users` is selected
