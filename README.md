@@ -33,7 +33,7 @@ hello
     * Click the gear icon next to the repository name on the left hand side of the screen
     * In the settings screen, choose `Environment Variables` you will need to add three variables by clicking `Add Variable`  
 
-
+HNN
         + `SFDC_SERVER_KEY` is the Base64 output generated in Step 1  
         + `SFDC_PROD_CLIENTID` is the `Consumer Key` from Step 2  
         + `SFDC_PROD_USER` is the user to use with CircleCI  
