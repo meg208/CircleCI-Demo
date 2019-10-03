@@ -40,10 +40,10 @@ jobs:
           command: . build/install.sh
       - run:
           name: Login to Production
-          command: . build/setup-prod.sh
+          command: . build/setup-qa.sh
       - run:
           name: Deploy to Production
-          command: . build/deploy-prod.sh
+          command: . build/deploy-qa.sh
   
 workflows:
   version: 2
@@ -62,6 +62,7 @@ workflows:
             branches:
               only:
               - QA
+              - Dev1
       - deploy-prod:
           filters:
             branches:

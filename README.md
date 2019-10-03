@@ -27,7 +27,7 @@ hello
     * Take note of the `Consumer Key` as you will need it for CircleCI
 
 3. You now can set up your CircleCI build
-    
+    hffd
     * Open CircleCI and click on `Add Projects` choose your GitHub repository and click `Set Up Project` then click `Start building` there is an example `config.yml` in this repository already. You can edit this to suit your needs.
     * Cancel the first build, as it will fail without any enviornment variables set
     * Click the gear icon next to the repository name on the left hand side of the screen
