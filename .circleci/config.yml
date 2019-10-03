@@ -62,7 +62,7 @@ workflows:
             branches:
               only:
               
-                -Dev1
+                -QA
       - deploy-prod:
           filters:
             branches:
