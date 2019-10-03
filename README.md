@@ -1,6 +1,6 @@
 # Continuous Integration with GitHub, SFDX and CircleCI ...Easier than you think!
 
-I hope you enjoyed my talk at Dreamforce 2018!
+I hope you enjoyed my talk at Dreamforce 2019...!
 
 You can use this repository as a base for setting up your own continuous integration workflow!
 
@@ -12,7 +12,7 @@ This repository contains build scripts (located in the `build/` folder) and an e
 
     * Follow the prompts when creating the certificate files
     * Take note of the Base64 output, as you will need this to set up CircleCI later
-
+hellogigitdncjkbhcb
 2. You will need to create a connected app in your production (and any sandboxes you wish to use CI with)
 
     * First, from Setup, enter App in the Quick Find box, then select App Manager. Click New Connected App.
@@ -37,7 +37,7 @@ This repository contains build scripts (located in the `build/` folder) and an e
         + `SFDC_SERVER_KEY` is the Base64 output generated in Step 1  
         + `SFDC_PROD_CLIENTID` is the `Consumer Key` from Step 2  
         + `SFDC_PROD_USER` is the user to use with CircleCI  
-
+hello
 
     * You can now re-run the first build. 
 

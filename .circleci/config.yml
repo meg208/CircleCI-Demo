@@ -16,6 +16,20 @@ jobs:
           command: . build/test.sh
       - store_test_results:
           path: test-results
+  deploy-qa:
+    docker:
+    - image: circleci/node:latest
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: . build/install.sh
+      - run:
+          name: Login to QA System
+          command: . build/setup-qa.sh
+      - run:
+          name: Deploy to QA System
+          command: . build/deploy-qa.sh
   deploy-prod:
     docker:
     - image: circleci/node:latest
@@ -30,6 +44,7 @@ jobs:
       - run:
           name: Deploy to Production
           command: . build/deploy-prod.sh
+  
 workflows:
   version: 2
   validate:
