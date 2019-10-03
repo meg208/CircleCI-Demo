@@ -42,3 +42,4 @@ hello
     * You can now re-run the first build. 
 
 You are now ready to build your salesforce projects with CircleCI!
+hello
