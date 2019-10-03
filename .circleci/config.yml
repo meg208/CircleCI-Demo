@@ -61,8 +61,7 @@ workflows:
           filters:
             branches:
               only:
-              
-                -QA
+              - QA
       - deploy-prod:
           filters:
             branches:
