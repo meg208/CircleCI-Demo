@@ -1,0 +1,26 @@
+{
+    
+        "Username": "meghaa208@sfdx.org",
+    
+        "LastName": "Parmar",
+    
+        "Email": "meghaa208@sfdx.org",
+    
+        "Alias": "tester1",
+    
+        "TimeZoneSidKey": "America/Denver",
+  
+        "LocaleSidKey": "en_US",
+    
+        "EmailEncodingKey": "UTF-8",
+    
+        "LanguageLocaleKey": "en_US",
+    
+        "profileName": "Standard Platform User",
+   
+        "permsets": ["CircleCI-Demo", "Dreamhouse"],
+  
+        "generatePassword": true
+    
+    }
+    
