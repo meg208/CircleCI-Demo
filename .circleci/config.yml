@@ -40,10 +40,10 @@ jobs:
           command: . build/install.sh
       - run:
           name: Login to Production
-          command: . build/setup-qa.sh
+          command: . build/setup-prod.sh
       - run:
           name: Deploy to Production
-          command: . build/deploy-qa.sh
+          command: . build/deploy-prod.sh
   
 workflows:
   version: 2
