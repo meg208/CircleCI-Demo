@@ -18,7 +18,7 @@
     
         "profileName": "Standard Platform User",
    
-        "permsets": ["CircleCI-Demo", "Dreamhouse"],
+        "permsets": ["CircleCI-Demo","Dreamhouse"],
   
         "generatePassword": true
     
